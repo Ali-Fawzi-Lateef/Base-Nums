@@ -7,7 +7,7 @@ string to_base(int number, int base) { // function for convertion.
 	while (number > 0) {
 		result = bases[number % base] + result;
 		number /= base;
-	}
+	}// it store the value for the loop till it complete the converting.
 	return result;
 }
 int main() {
