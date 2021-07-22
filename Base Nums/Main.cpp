@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-string to_base(int number, int base) { // function for convertion.
-	string bases = "0123456789ABCDEF";// for converting the decimal to any base.
+string to_base(int number, int base) { // function for convertion
+	string bases = "0123456789ABCDEF";// for converting the decimal to any base
 	string result = "";
 	while (number > 0) {
 		result = bases[number % base] + result;
 		number /= base;
-	}// it store the value for the loop till it complete the converting.
-	return result;// return the result for the main function.
+	}// it store the value for the loop till it complete the converting
+	return result;// return the result for the main function
 }
 int main() {
 	int n, b;
