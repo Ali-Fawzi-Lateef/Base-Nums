@@ -15,7 +15,7 @@ int main() {
 	do {
 		cout << "Enter the number and the base number system: _ _\b\b\b";
 		cin >> n >> b;//get input from the user.
-		cout << "The number " << n << " base number " << b;//print thetext and the input value
+		cout << "The number " << n << " base number " << b;//print thetext and the input value.
 		cout << " the result is: " << to_base(n, b) << endl;// invoke thefunction for converting
 	} while (n != 0 || b != 0);// loop condition , loop terminates when n, b = 0.
 	return 0;
