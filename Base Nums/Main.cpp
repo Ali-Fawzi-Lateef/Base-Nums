@@ -2,7 +2,7 @@
 using namespace std;
 
 string to_base(int number, int base) { // function for convertion.
-	string bases = "0123456789ABCDEF";// for converting the decimal to any base
+	string bases = "0123456789ABCDEF";// for converting the decimal to any base.
 	string result = "";
 	while (number > 0) {
 		result = bases[number % base] + result;
