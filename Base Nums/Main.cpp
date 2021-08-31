@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-string to_base(int number, int base) { // function for convertion
+string to_base(int number, int base) { // function for convertion.
 	string bases = "0123456789ABCDEF";// for converting the decimal to any base
 	string result = "";
 	while (number > 0) {
